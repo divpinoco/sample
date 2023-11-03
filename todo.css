@@ -1,0 +1,33 @@
+body > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.count-area {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+button {
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+}
+
+p {
+    font-size: 96px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.first {
+    color: brown;
+}
+
+.second {
+    color: blue;
+}
